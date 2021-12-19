@@ -1,2 +1,49 @@
 Link para download do Git: https://git-scm.com/downloads
 O Git Bash é um terminal extendido para otimizar o uso do Git.
+
+Comandos Git
+
+$ git --version
+Mostra versão atual do git.
+
+$ git init
+Cria um novo subdiretório chamado .git que contém todos os arquivos necessários de seu repositório.
+
+$ git add 
+Coloca os arquivos em stage, podendo colocar o ponto final para todos os arquivos ou o nome do arquivo, para que possa realizar o commit.
+
+$ git branch -m //nome da branch
+Altera o nome da branch atual.
+
+$ git branch -d //nome da branch
+Deleta a branch, importante lembrar que é para estar em outra branch.
+
+$ git commit -m “//Mensagem”
+Realiza o commit dos arquivos em stage.
+
+$ git clone endereço do repositório remoto
+Logo após o comando se coloca o https ou ssh, para que possa clonar o repositório no github em sua máquina local.
+
+$ git status
+Verifica o status dos arquivos.
+
+$ git log
+lista os commits feitos neste repositório em ordem cronológica inversa.
+
+$ git remote add origin endereço do repositório remoto
+Adiciona um repositório remoto para que possa realizar o push.
+
+$ git push -u origin //nome da branch
+Coloca os arquivos que estão em commit ao repositório remoto.
+
+$ git checkout //nome da branch
+Muda para uma branch.
+
+$ git checkout -b //nome da branch
+Cria uma nova branch e sai da atual.
+
+$ git merge //nome da branch
+Acrescenta a branch escrita na atual aberta.
+
+$ git diff
+Exibe as diferenças entre versões
